@@ -21,5 +21,16 @@
       <description>Welcome to my blog! In here you&amp;rsquo;ll mainly find a collection of tools I&amp;rsquo;m working on, CTF and HTB write-ups and anything else I decide to write about penetration testing and infosec.</description>
     </item>
     
+    <item>
+      <title>Web Recon Tool</title>
+      <link>/posts/web-recon-tool/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/web-recon-tool/</guid>
+      <description>While researching various bounty programs on bugcrowd, I started looking into tools and methodology other bug hunters were using when performing recon on a program. That research led to this tool.
+This tool is inspired by OSCP tools like AutoRecon or nmapAutomator. I figured creating one of my own would present a good opportunity to practice scripting in Python and containerization while learning about popular bug hunting tools.
+Using the tool In this example I&amp;rsquo;m scanning Tesla.</description>
+    </item>
+    
   </channel>
 </rss>

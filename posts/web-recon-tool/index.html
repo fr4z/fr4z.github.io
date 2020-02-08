@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<meta charset="utf-8" />
+<meta name="author" content="fr4z" />
+<meta name="description" content="Personal blog." />
+<meta name="keywords" content="blog, tech" />
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta name="generator" content="Hugo 0.64.0" />
+
+<link rel="canonical" href="/posts/web-recon-tool/">
+<meta property="og:title" content="Web Recon Tool" />
+<meta property="og:description" content="While researching various bounty programs on bugcrowd, I started looking into tools and methodology other bug hunters were using when performing recon on a program. That research led to this tool.
+This tool is inspired by OSCP tools like AutoRecon or nmapAutomator. I figured creating one of my own would present a good opportunity to practice scripting in Python and containerization while learning about popular bug hunting tools.
+Using the tool In this example I&rsquo;m scanning Tesla." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/web-recon-tool/" />
+<meta property="article:published_time" content="2020-02-08T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-02-08T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Web Recon Tool"/>
+<meta name="twitter:description" content="While researching various bounty programs on bugcrowd, I started looking into tools and methodology other bug hunters were using when performing recon on a program. That research led to this tool.
+This tool is inspired by OSCP tools like AutoRecon or nmapAutomator. I figured creating one of my own would present a good opportunity to practice scripting in Python and containerization while learning about popular bug hunting tools.
+Using the tool In this example I&rsquo;m scanning Tesla."/>
+
+
+<meta itemprop="name" content="Web Recon Tool">
+<meta itemprop="description" content="While researching various bounty programs on bugcrowd, I started looking into tools and methodology other bug hunters were using when performing recon on a program. That research led to this tool.
+This tool is inspired by OSCP tools like AutoRecon or nmapAutomator. I figured creating one of my own would present a good opportunity to practice scripting in Python and containerization while learning about popular bug hunting tools.
+Using the tool In this example I&rsquo;m scanning Tesla.">
+<meta itemprop="datePublished" content="2020-02-08T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-02-08T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="179">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<link rel="stylesheet" href="/css/layout.css" />
+
+
+<link rel="stylesheet" href="/css/default-dark.css" />
+
+
+
+
+<title>
+
+
+     Web Recon Tool 
+
+</title>
+
+</head>
+
+
+<body>
+<div class="main">
+<header>
+
+<div class="header-bar">
+
+  <nav>
+    <div class="siteTitle">
+      <a href="/">fr4z&#39;s blog</a>
+    </div> 
+
+    
+    
+    <a class="nav-item" href="/posts/"><div class="nav-item-title">Posts</div></a>
+    
+    <a class="nav-item" href="/tags/"><div class="nav-item-title">Tags</div></a>
+    
+
+  </nav>
+
+  
+<div class="social-links-header">
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</div>
+
+
+</div>
+
+
+</header>
+
+
+<article class="post">
+    <h1 class="title"> Web Recon Tool </h1>
+    <div class="content"> <p>While researching various bounty programs on bugcrowd, I started looking into tools and methodology other bug hunters were using when performing recon on a program. That research led to this tool.</p>
+<p>This tool is inspired by OSCP tools like AutoRecon or nmapAutomator. I figured creating one of my own would present a good opportunity to practice scripting in Python and containerization while learning about popular bug hunting tools.</p>
+<h3 id="using-the-tool">Using the tool</h3>
+<p>In this example I&rsquo;m scanning Tesla.com</p>
+<pre><code>git clone https://github.com/fr4z/web-recon.git
+cd web-recon/
+./run.sh tesla.com
+</code></pre><ol>
+<li>he script will build the directory structure which will store results:</li>
+</ol>
+<pre><code>tesla.com
+|-- assetfinder.txt
+|-- httprobe.txt
+|-- gowitness
+    |--tesla.com.png
+</code></pre><ol start="2">
+<li>Then the script will look for subdomains using <a href="https://github.com/tomnomnom/assetfinder">assetfinder</a>.</li>
+<li>Check which of those subdomains are alive using <a href="https://github.com/tomnomnom/httprobe">httprobe</a></li>
+<li>Take a screenshot of each of the sites from list of live subdomains with <a href="https://github.com/sensepost/gowitness">gowitness</a></li>
+</ol>
+<h3 id="future-plans">Future Plans</h3>
+<p>So far the tool takes one domain, enumerates subdomains and takes a screenshot of each one rendered. Some plans for the future:</p>
+<ol>
+<li>Run these tools concurrently</li>
+<li>Add more tools like gobuster, massscan and subjacker.</li>
+<li>Make the output fancier</li>
+<li>Incorporate some OOP</li>
+</ol>
+ </div>
+    <footer class="post-footer">
+
+  <div class="post-footer-data">
+            
+<div class="tags">
+  
+</div>
+
+    <div class="date"> 2020-02-08 </div>
+    
+  </div>
+</footer>
+
+
+
+</article>
+
+  <footer>
+
+  <div class="social-links-footer">
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  <div class="social-link">
+  <a href="/index.xml" target="_blank">RSS</a>
+  </div>
+
+</div>
+
+
+  <div class="copyright"> Copyright (c) 2017, all rights reserved. </div>
+
+  <div class="poweredby">
+    Powered by <a href="https://gohugo.io/">Hugo</a>.
+  </div>
+
+  </footer>
+
+</div> 
+
+</body>
+</html>
+
