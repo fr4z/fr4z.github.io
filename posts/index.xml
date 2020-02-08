@@ -1,19 +1,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Posts on My New Hugo Site</title>
-        <link>http://example.org/posts/</link>
-        <description>Recent content in Posts on My New Hugo Site</description>
+        <title>Posts on fr4z&#39;s blog</title>
+        <link>https://fr4z.github.io/posts/</link>
+        <description>Recent content in Posts on fr4z&#39;s blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Sat, 08 Feb 2020 00:00:00 +0000</lastBuildDate>
-        <atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://fr4z.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
             <title>First Post</title>
-            <link>http://example.org/posts/first-post/</link>
+            <link>https://fr4z.github.io/posts/first-post/</link>
             <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
             
-            <guid>http://example.org/posts/first-post/</guid>
+            <guid>https://fr4z.github.io/posts/first-post/</guid>
             <description>Fist Post Welcome to my blog! In here you&amp;rsquo;ll mainly find a collection of tools I&amp;rsquo;m working on, CTF and HTB write-ups and anything else I decide to write about penetration testing and infosec.</description>
             <content type="html"><![CDATA[<h1 id="fist-post">Fist Post</h1>
 <p>Welcome to my blog! In here you&rsquo;ll mainly find a collection of tools I&rsquo;m working on, CTF and HTB write-ups and anything else I decide to write about penetration testing and infosec.</p>
