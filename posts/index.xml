@@ -1,23 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Posts on fr4z&#39;s blog</title>
-        <link>/posts/</link>
-        <description>Recent content in Posts on fr4z&#39;s blog</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <lastBuildDate>Sat, 08 Feb 2020 00:00:00 +0000</lastBuildDate>
-        <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
-        
-        <item>
-            <title>First Post</title>
-            <link>/posts/first-post/</link>
-            <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
-            
-            <guid>/posts/first-post/</guid>
-            <description>Welcome to my blog! In here you&amp;rsquo;ll mainly find a collection of tools I&amp;rsquo;m working on, CTF and HTB write-ups and anything else I decide to write about penetration testing and infosec.</description>
-            <content type="html"><![CDATA[<p>Welcome to my blog! In here you&rsquo;ll mainly find a collection of tools I&rsquo;m working on, CTF and HTB write-ups and anything else I decide to write about penetration testing and infosec.</p>
-]]></content>
-        </item>
-        
-    </channel>
+  <channel>
+    <title>Posts on fr4z&#39;s blog</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on fr4z&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 08 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First Post</title>
+      <link>/posts/first-post/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/first-post/</guid>
+      <description>Welcome to my blog! In here you&amp;rsquo;ll mainly find a collection of tools I&amp;rsquo;m working on, CTF and HTB write-ups and anything else I decide to write about penetration testing and infosec.</description>
+    </item>
+    
+  </channel>
 </rss>
