@@ -14,9 +14,8 @@
             <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
             
             <guid>/posts/first-post/</guid>
-            <description>Fist Post Welcome to my blog! In here you&amp;rsquo;ll mainly find a collection of tools I&amp;rsquo;m working on, CTF and HTB write-ups and anything else I decide to write about penetration testing and infosec.</description>
-            <content type="html"><![CDATA[<h1 id="fist-post">Fist Post</h1>
-<p>Welcome to my blog! In here you&rsquo;ll mainly find a collection of tools I&rsquo;m working on, CTF and HTB write-ups and anything else I decide to write about penetration testing and infosec.</p>
+            <description>Welcome to my blog! In here you&amp;rsquo;ll mainly find a collection of tools I&amp;rsquo;m working on, CTF and HTB write-ups and anything else I decide to write about penetration testing and infosec.</description>
+            <content type="html"><![CDATA[<p>Welcome to my blog! In here you&rsquo;ll mainly find a collection of tools I&rsquo;m working on, CTF and HTB write-ups and anything else I decide to write about penetration testing and infosec.</p>
 ]]></content>
         </item>
         
